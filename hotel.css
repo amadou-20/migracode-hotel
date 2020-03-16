@@ -18,7 +18,7 @@ aside {
   background-color: whitesmoke;
 }
 body{
-  background-color: greenyellow;
+  background-color: #BDB76B;
   font-family: 'Maven Pro', sans-serif;
 }
 article,aside{
@@ -26,24 +26,25 @@ article,aside{
   border-radius: 8px;
   overflow: auto;
   text-align: justify;
-  padding: 6px;
+  padding: 12px;
 }
 article img,aside img{
   width: 50px;
   text-align: center;
   border-radius: 5px;
-  margin: auto;
+  margin-left: 120px;
   text-align: center;
 }
 article h1, aside h1{
 margin: auto;
 text-align: center;
-text-shadow: 4px 4px 6px gray;
+text-shadow: 4px 4px 5px gray;
 padding-top: 20px;
 
 }
-h1{
+ h1{
   margin-right: 500px;
+  color: #9400D3;
 }
 header{
   display: flex;
@@ -51,13 +52,21 @@ header{
   align-items: baseline;
 }
 #banner{
-   background: url("hotel.jpg") repeat;
-   width: 800px;
-   height: 300px;
+   background: url("hotel.jpeg") repeat;
+   width: 100%;
+   height: 500px;
    margin-bottom: 24px;
    box-shadow: 4px 4px 5px gray;
    border-radius: 6px;
    margin: auto;
+   filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+   transition: 0.8s;
+}
+#banner:hover{
+  cursor: pointer;
+  filter: none;
+  -webkit-filter: none;
 }
 
 nav ul{
