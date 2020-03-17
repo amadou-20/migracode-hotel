@@ -21,6 +21,14 @@ body{
   background-color: #BDB76B;
   font-family: 'Maven Pro', sans-serif;
 }
+header{
+  width: ;
+  height: 100px;
+  background-color: honeydew;
+  text-align: center;
+  margin: 20px -12px 20px -12px;
+  border-radius: 8px;
+}
 article,aside{
   margin: auto;
   border-radius: 8px;
